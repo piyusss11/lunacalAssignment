@@ -1,4 +1,5 @@
 import React from "react";
+import ImageSlider from "./ImageSlider";
 
 const SecondBox = () => {
   return (
@@ -11,25 +12,15 @@ const SecondBox = () => {
             </button>
             <div>
               <div className="flex items-center gap-4 ">
-                <button className="bg-[#565e678e] mr-4 rounded-full px-4 py-3 text-[12px] font-jakarta custom-shadow custom-blur">
+                <button className="bg-[#565e678e] mr-32 rounded-full px-4 py-3 text-[12px] font-jakarta custom-shadow custom-blur">
                   +&nbsp;&nbsp;&nbsp; ADD IMAGE
                 </button>
-                <button className="bg-[#171717] rounded-full px-3 py-2 text-white shadow-custom custom-arrow-shadow">
-                  <i className="text-xl ri-arrow-left-line"></i>
-                </button>
-                <button className="bg-[#171717] rounded-full px-3 py-2 text-white shadow-custom custom-arrow-shadow">
-                  <i className="text-xl ri-arrow-right-line"></i>
-                </button>
+              
               </div>
             </div>
           </div>
 
-          <div className="flex gap-4 justify-center flex-wrap w-full scrollbar-thin overflow-y-hidden overflow-x-auto">
-            <img src="./images/dummyImg.png" alt="" />
-            <img src="./images/dummyImg.png" alt="" />
-            <img src="./images/dummyImg.png" alt="" />
-            <img src="./images/dummyImg.png" alt="" />
-          </div>
+          <ImageSlider />
         </div>
 
         <img

@@ -11,8 +11,7 @@ function App() {
         <FirstBox/>
         <hr className="w-[80%] mx-auto rounded-full border-2 border-[#f8f8f82b]" />
         <SecondBox/>
-        <hr className="w-[80%] mx-auto rounded-full border-2 border-[#f8f8f82b]" />
-        
+        <hr className="w-[80%] mx-auto mb-20 rounded-full border-2 border-[#f8f8f82b]" />
         </div>
       </div>
     </>

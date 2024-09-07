@@ -30,8 +30,8 @@ const FirstBox = () => {
               onClick={handleAbout}
               className={
                 about
-                  ? "rounded-3xl ml-2 px-10 py-2 bg-gradient-to-r from-[#2727287a] to-[#96bee72d] text-white shadow-[0_25px_60px_-10px_rgba(0,0,0,1)]"
-                  : "rounded-3xl ml-2 px-10 py-2 text-[#A3ADB2]"
+                  ? "rounded-xl ml-2 px-10 py-2 bg-gradient-to-r from-[#2727287a] to-[#96bee72d] text-white shadow-[0_25px_60px_-10px_rgba(0,0,0,1)]"
+                  : "rounded-xl ml-2 px-10 py-2 text-[#A3ADB2]"
               }
             >
               About Me
@@ -40,8 +40,8 @@ const FirstBox = () => {
               onClick={handleExperience}
               className={
                 experience
-                  ? "rounded-3xl ml-2 px-10 py-2 bg-gradient-to-r from-[#2727287a] to-[#96bee72d] text-white shadow-[0_25px_60px_-10px_rgba(0,0,0,1)]"
-                  : "rounded-3xl ml-2 px-10 py-2 text-[#A3ADB2]"
+                  ? "rounded-xl ml-2 px-10 py-2 bg-gradient-to-r from-[#2727287a] to-[#96bee72d] text-white shadow-[0_25px_60px_-10px_rgba(0,0,0,1)]"
+                  : "rounded-xl ml-2 px-10 py-2 text-[#A3ADB2]"
               }
             >
               Experience
@@ -50,8 +50,8 @@ const FirstBox = () => {
               onClick={handleRecommended}
               className={
                 recommended
-                  ? "rounded-3xl mr-2 ml-2 px-10 py-2 bg-gradient-to-r from-[#2727287a] to-[#96bee72d] text-white shadow-[0_25px_60px_-10px_rgba(0,0,0,1)]"
-                  : "rounded-3xl mr-2 ml-2 px-10 py-2 text-[#A3ADB2]"
+                  ? "rounded-xl mr-2 ml-2 px-10 py-2 bg-gradient-to-r from-[#2727287a] to-[#96bee72d] text-white shadow-[0_25px_60px_-10px_rgba(0,0,0,1)]"
+                  : "rounded-xl mr-2 ml-2 px-10 py-2 text-[#A3ADB2]"
               }
             >
               Recommended
