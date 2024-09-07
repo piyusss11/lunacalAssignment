@@ -20,23 +20,18 @@ export const cards: Card[] = [
       id: 3,
     },
     {
-      url: "./images/dummyImg.png",
+      url: "./images/dummyImg2.jpg",
       title: "Title 4",
       id: 4,
     },
     {
-      url: "./images/dummyImg.png",
+      url: "./images/dummyImg3.jpg",
       title: "Title 5",
       id: 5,
     },
     {
-      url: "./images/dummyImg.png",
+      url: "./images/dummyImg4.jpg",
       title: "Title 6",
       id: 6,
-    },
-    {
-      url: "./images/dummyImg.png",
-      title: "Title 7",
-      id: 7,
     },
   ];

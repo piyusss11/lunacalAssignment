@@ -1,4 +1,4 @@
-import React from "react";
+import {FC} from "react";
 
 import {
   Carousel,
@@ -7,11 +7,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { cards } from "@/assets/imgData";
+// import { cards } from "@/assets/imgData";
 
-
-const ImageSlider:React.FC = () => {
- 
+interface ImageSlideProps {
+  images: {
+    url: string;
+    title: string;
+    id: number;
+  }[];
+}
+const ImageSlider: FC<ImageSlideProps> = ({ images }) => {
   return (
     <Carousel
       opts={{
@@ -20,10 +25,10 @@ const ImageSlider:React.FC = () => {
       className="w-full "
     >
       <CarouselContent>
-        {cards?.map((img) => (
+        {images?.map((img) => (
           <CarouselItem key={img?.id} className="md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <img src={img?.url} alt={img?.title} />
+              <img className="w-[190px] h-[190px] object-cover rounded-xl" src={img?.url} alt={img?.title} />
             </div>
           </CarouselItem>
         ))}
