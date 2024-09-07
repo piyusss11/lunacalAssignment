@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const FirstBox = () => {
   const [about, setAbout] = useState(true);
